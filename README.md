@@ -32,13 +32,6 @@ Ce projet constitue une évaluation finale dans le cadre du cours d'intégration
 
 ## Installation rapide (Docker)
 
-Cloner le dépôt :
-
-```bash
-git clone <url_du_repo>
-cd examen-web
-```
-
 Lancer l'application via Docker Compose :
 
 ```bash
@@ -47,24 +40,4 @@ docker-compose up --build
 
 Accéder à l'application : http://localhost:8000
 
-## Structure du projet
-
-```
-examen-web/
-├── Dockerfile
-├── docker-compose.yml
-├── manage.py
-├── requirements.txt
-├── webapp/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-└── main/
-    ├── templates/main/index.html
-    ├── migrations/
-    ├── models.py
-    ├── serializers.py
-    ├── views.py
-    └── urls.py
-```
 

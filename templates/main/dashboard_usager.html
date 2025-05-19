@@ -1,9 +1,16 @@
 {% extends 'main/base.html' %}
 
-{% block title %}Dashboard Usager{% endblock %}
+{% block title %}Usager{% endblock %}
 
 {% block content %}
-<h2>Bienvenue Usager</h2>
-<p>Bonjour, {{ user.username }}.</p>
-<a href="{% url 'logout' %}" class="btn btn-danger">Déconnexion</a>
+<h2 class="mb-4">Mon Espace Personnel</h2>
+<p>Bienvenue <strong>{{ user.username }}</strong>. Voici vos informations :</p>
+
+<ul>
+    <li>Vos interventions en cours</li>
+    <li>Historique des demandes</li>
+    <li>Support et contact</li>
+</ul>
+
+<a href="{% url 'logout' %}" class="btn btn-danger mt-3">Se déconnecter</a>
 {% endblock %}
