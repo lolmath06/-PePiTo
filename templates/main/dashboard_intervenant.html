@@ -1,0 +1,9 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Dashboard Intervenant{% endblock %}
+
+{% block content %}
+<h2>Bienvenue Intervenant</h2>
+<p>Bonjour, {{ user.username }}.</p>
+<a href="{% url 'logout' %}" class="btn btn-danger">Déconnexion</a>
+{% endblock %}

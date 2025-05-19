@@ -1,0 +1,9 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Dashboard Admin{% endblock %}
+
+{% block content %}
+<h2>Bienvenue Admin</h2>
+<p>Bonjour, {{ user.username }}.</p>
+<a href="{% url 'logout' %}" class="btn btn-danger">Déconnexion</a>
+{% endblock %}
