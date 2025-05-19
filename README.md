@@ -1,9 +1,5 @@
 # PePiTo — Application Django avec Authentification par Rôle
 
-> **Projet de synthèse Web — Epitech 2025**
-
----
-
 ## 🚀 Présentation
 
 PePiTo est une application web développée avec Django permettant de gérer différents types d'utilisateurs via une interface claire et un système de rôles (Admin, Intervenant, Usager). Elle propose une expérience responsive et moderne grâce à Bootstrap, et est conçue pour être **déployée en un seul clic via Docker Compose**.
